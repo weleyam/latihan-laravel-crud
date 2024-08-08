@@ -9,4 +9,5 @@ class Warga extends Model
 {
     use HasFactory;
     protected $table = 'warga';
+    protected $guarded =[]; //semuanya kolom fillable
 }
